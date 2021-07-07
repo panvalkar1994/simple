@@ -1,0 +1,31 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "test for electron auto updator",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panvalkar1994/simple.git"
+  },
+  "keywords": [
+    "electron",
+    "auto-update"
+  ],
+  "author": "vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panvalkar1994/simple/issues"
+  },
+  "homepage": "https://github.com/panvalkar1994/simple#readme",
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  }
+}
